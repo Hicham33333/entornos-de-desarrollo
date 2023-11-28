@@ -1,6 +1,7 @@
 package arrays;
 //1. Que rellene un array con los 100 primeros números enteros y los muestre en
-//pantalla en orden ascendente
+//pantalla en orden ascendentehfgghgf
+
 public class hoja_4_ej1 {
 	public static void main(String[] args) {
 		int [] num; 
@@ -11,6 +12,7 @@ public class hoja_4_ej1 {
 		cont = cont +1;
 			num[i]= cont;
 			System.out.println(num[i]);
+			I//hola
 		}
 		}
 	}
