@@ -1,0 +1,11 @@
+//que calcule la media de 10 numeros
+public class ej22 {
+
+	public static void main(String[] args) {
+		
+	int num = 0;
+	int cont = 0;
+	
+		
+	}
+}

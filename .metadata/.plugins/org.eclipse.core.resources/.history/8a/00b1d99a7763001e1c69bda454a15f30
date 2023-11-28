@@ -1,0 +1,26 @@
+
+public class ej18 {
+
+	public static void main(String[] args) {
+		
+		int num= 0;
+		int cont = 0;
+		int result= 0;
+		
+		while (cont <= 10) {
+			while (num<=10) {
+				result= num*cont;
+				num = num+1;
+				System.out.println(num+'*'+cont+'='+result);
+				
+				
+			}
+			cont= cont+1;
+			num= 0;
+		}
+		
+		
+	}
+	
+	
+}

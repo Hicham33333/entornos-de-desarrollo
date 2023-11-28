@@ -1,0 +1,13 @@
+//que muestre por pantalla del 1 al 100
+public class bucle_for {
+	public static void main(String[] args) {
+		int i;
+		int b=3;
+		//bucle for (inicializa;condicion de permanencio;paso)
+		System.out.println(b);
+		for (i = 100;i > 0; i = i-1) {
+			System.out.println(i);
+		}
+	}
+
+}

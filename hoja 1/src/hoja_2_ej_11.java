@@ -1,0 +1,17 @@
+
+public class hoja_2_ej_11 {
+	public static void main(String[] args) {
+		int a = 0;
+		int b = 0;
+		int result = 0;
+		while (b <= 10) {
+			while (a < 10) {
+				a = a + 1;
+				result = a * b;
+				System.out.println(a+" * "+b+" = "+ result);
+			}
+			b = b +1;
+			a = 0;
+		}
+	}
+}

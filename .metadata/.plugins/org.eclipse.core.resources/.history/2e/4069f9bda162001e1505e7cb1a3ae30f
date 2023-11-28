@@ -1,0 +1,34 @@
+//25. Que calcule el sueldo que le corresponde al trabajador de una empresa que cobra
+//40.000 euros anuales, el programa debe realizar los cálculos en función de los
+//siguientes criterios:
+
+//a. Si lleva más de 10 años en la empresa se le aplica un aumento del 10%.
+//b. Si lleva menos de 10 años pero más que 5 se le aplica un aumento del 7%.
+//c. Si lleva menos de 5 años pero más que 3 se le aplica un aumento del 5%.
+//d. Si lleva menos de 3 años se le aplica un aumento del 3%
+public class ej25 {
+	public static void main(String[] args) {
+		int sueldo;
+		int aumento;
+		int años;
+		int oper;
+		aumento = 0;
+		sueldo = 40000;
+		System.out.println("introduce años en la empresa");
+		años = 11;
+		if (años > 10) {
+		    aumento = (sueldo*10/100);				
+		}else if (años <=10  &&  años > 5){
+			aumento = (sueldo*7/100);
+		}else if (años <=5 && años > 3){
+		    aumento = (sueldo*5/100);
+		}else if (años <= 3 ){
+			aumento = (sueldo*3/100);
+		}
+		
+		System.out.println("tu sueldo es de" aumento);
+		
+		
+	}
+
+}

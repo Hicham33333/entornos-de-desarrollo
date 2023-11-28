@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class hoja2_ej22 {
+	public static void main(String[] args) {
+		Scanner entrada=new Scanner(System.in);
+		float media ;
+		float sum = 0;
+		float cont = 0;
+		while (cont <=10){
+		float num=entrada.nextInt();
+		sum = sum + num;
+		cont = cont +1;
+		}
+		media = sum / cont ;
+		System.out.println(media);
+	}
+	
+}

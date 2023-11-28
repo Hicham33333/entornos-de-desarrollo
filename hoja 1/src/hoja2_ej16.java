@@ -1,0 +1,19 @@
+
+import java.util.Scanner;
+
+public class hoja2_ej16 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner lector = new Scanner(System.in);
+		System.out.println("introduce un numero: ");
+		int num=lector.nextInt();
+		int cont = 0;
+		while ( cont < num) {
+			cont = cont + 1;
+			System.out.print(" *");
+		}
+	}
+
+}
