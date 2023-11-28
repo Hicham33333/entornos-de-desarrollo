@@ -12,7 +12,7 @@ public class hoja_4_ej1 {
 		cont = cont +1;
 			num[i]= cont;
 			System.out.println(num[i]);
-			I//hola
+			//hola
 		}
 		}
 	}
